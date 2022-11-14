@@ -1,0 +1,447 @@
+/* found in components/header.js */
+header {
+  background-color: #1F2A4F;
+}
+header #topbar {
+  height: 30px;
+  background-color: #18203C;
+}
+header #navbar {
+  width: 56.25%;
+  max-width: 1080px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #1F2A4F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header #navbar #logo {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+}
+header #navbar #logo #logo-cont {
+  width: 220px;
+  height: 140px;
+  margin-top: 40px;
+  background-image: url(../images/logo_container-background.png);
+}
+header #navbar #logo #logo-cont #logo-image {
+  width: 70px;
+  height: 100px;
+  margin-top: 8px;
+  margin-left: 75px;
+  background-image: url(../images/logo.png);
+}
+header #navbar #logo #title {
+  color: #fff;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+header #navbar #logo #title h1 {
+  font-size: 1.875rem;
+}
+header #navbar #logo #title h2 {
+  font-size: 1.5rem;
+}
+header #navbar #nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+header #navbar #nav .nav-item {
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
+  font-weight: bold;
+  font-family: "Quattrocento Sans", sans-serif;
+  border-right: 0.5px solid rgba(225, 255, 255, 0.25);
+  color: #fff;
+}
+header #navbar #nav .nav-item:first-child {
+  border-left: 0.5px solid rgba(225, 255, 255, 0.25);
+}
+header #navbar-border {
+  max-width: 1920px;
+  height: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  background-image: url(../images/navbar-border.png);
+}
+header #banner {
+  height: 320px;
+  margin: 0 auto;
+  background-image: url(../images/banner.png);
+}
+
+/* found in components/footer.js */
+footer {
+  height: 120px;
+  background-color: #18203C;
+}
+footer #footer-cont {
+  width: 56.25%;
+  max-width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+footer #footer-cont #footer-info {
+  color: #888;
+}
+
+body header #navbar #nav .nav-item .dropdown-item {
+  position: absolute;
+  width: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+  border-top: 4px solid #fff;
+  background-color: #888;
+  display: none;
+}
+body header #navbar #nav .nav-item .dropdown-item a {
+  font-size: 0.875rem;
+  border-bottom: 0.5px solid rgba(225, 255, 255, 0.25);
+  color: #fff;
+}
+body header #navbar #nav .nav-item .dropdown-item a:hover {
+  color: #333;
+}
+body header #navbar #nav .nav-item:hover .dropdown-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* found in index.html */
+main {
+  padding-top: 2px;
+  border-top: 12px solid #262626;
+  background-color: #f9f6ef;
+}
+main #main-container_A {
+  width: 56.25%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: -120px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+main #main-container_A #main-section_1 {
+  background-color: #bbb;
+  display: flex;
+  flex-direction: row;
+}
+main #main-container_A #main-section_1 #ms_1-a {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  flex: 1.5;
+}
+main #main-container_A #main-section_1 #ms_1-a h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+main #main-container_A #main-section_1 #ms_1-a h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+main #main-container_A #main-section_1 #ms_1-a p {
+  margin-bottom: 16px;
+}
+main #main-container_A #main-section_1 #ms_1-b {
+  background-image: url(../images/history-001.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  flex: 1;
+}
+main #main-container_A #main-section_2 #ms_2-a {
+  margin-bottom: 40px;
+}
+main #main-container_A #main-section_2 #ms_2-a h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+main #main-container_A #main-section_2 #ms_2-a p {
+  width: 75%;
+  font-size: 1.125rem;
+}
+main #main-container_A #main-section_2 #ms_2-b {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+main #main-container_A #main-section_2 #ms_2-b #ms_2-b-history {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  flex: 1;
+}
+main #main-container_A #main-section_2 #ms_2-b #ms_2-b-history h1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+main #main-container_A #main-section_2 #ms_2-b #ms_2-b-history p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+main #main-container_A #main-section_2 #ms_2-b #ms_2-b-war {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  flex: 1;
+}
+main #main-container_A #main-section_2 #ms_2-b #ms_2-b-war h1 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+main #main-container_A #main-section_2 #ms_2-b #ms_2-b-war p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+main #main-container_B {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(219, 132, 11, 0.5);
+}
+main #main-container_B #main-section_3 {
+  width: 56.25%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+main #main-container_B #main-section_3 #ms_3-a {
+  flex: 2.25;
+}
+main #main-container_B #main-section_3 #ms_3-a h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+main #main-container_B #main-section_3 #ms_3-a p {
+  font-size: 1.125rem;
+}
+main #main-container_B #main-section_3 #ms_3-b {
+  margin-top: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn {
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn #ms_3-b-inn-dropdown {
+  opacity: 0;
+  max-height: 0;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn:hover #ms_3-b-inn-dropdown {
+  opacity: 1;
+  max-height: 240px;
+  transition-duration: 0.75s;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-inn:hover #ms_3-b-inn-dropdown p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort {
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort #ms_3-b-resort-dropdown {
+  opacity: 0;
+  max-height: 0;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort:hover #ms_3-b-resort-dropdown {
+  opacity: 1;
+  max-height: 240px;
+  transition-duration: 0.75s;
+}
+main #main-container_B #main-section_3 #ms_3-b #ms_3-b-resort:hover #ms_3-b-resort-dropdown p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+main #main-container_C {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(38, 38, 38, 0.65);
+  background-image: url(../images/banner-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+main #main-container_C #main-section_4 {
+  width: 56.25%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+main #main-container_C #main-section_4 #ms_4-a h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+main #main-container_C #main-section_4 #ms_4-a p {
+  margin-bottom: 16px;
+}
+main #main-container_C #main-section_4 #ms_4-a a {
+  width: 240px;
+  height: 40px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+main #main-container_C #main-section_4 #ms_4-a a h2 {
+  margin-left: 12px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+main #main-container_C #main-section_4 #ms_4-b {
+  margin-top: 24px;
+}
+main #main-container_C #main-section_4 #ms_4-b p {
+  margin-bottom: 16px;
+}
+main #main-container_C #main-section_4 #ms_4-b form {
+  font-size: 0.75rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+}
+main #main-container_C #main-section_4 #ms_4-b form input {
+  display: block;
+  width: 240px;
+  height: 40px;
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+  opacity: 0.5;
+}
+main #main-container_C #main-section_4 #ms_4-b form button {
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+/* styling for sidepages found under "page_*" folders */
+.sidepage-container {
+  width: 56.25%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: -160px;
+  border-top: 4px solid #262626;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+.sidepage-container .sidepage-section {
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.sidepage-container .sidepage-section h1 {
+  font-size: 2.25rem;
+  margin-bottom: 32px;
+}
+.sidepage-container .sidepage-section h2 {
+  font-size: 1.25rem;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+.sidepage-container .sidepage-section p {
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+.sidepage-container .sidepage-section #contact {
+  margin-bottom: 8px;
+}
+.sidepage-container .sidepage-section a {
+  font-size: 1rem;
+  text-decoration: underline;
+  margin-bottom: 24px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, table {
+  padding: 0;
+  margin: 0;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* multipage style items */
+#section_acc {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-left: -70px;
+  margin-top: -60px;
+  background-image: url(../images/section_acc.png);
+  opacity: 0.25;
+  z-index: 0;
+}
+
+#button-learnMore {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+  background-color: rgba(128, 10, 10, 0.8);
+  font-size: 0.75rem;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
