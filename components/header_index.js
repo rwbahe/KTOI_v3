@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                 <div id="topbar"></div>
                 <div id="navbar">
                     <div id="logo">
-                        <a href="../index.html" id="logo-cont">
+                        <a href="./index.html" id="logo-cont">
                             <div id="logo-image"></div>
                         </a>
                         <div id="title">
