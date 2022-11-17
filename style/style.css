@@ -404,6 +404,58 @@ main #main-container_C #main-section_4 #ms_4-b form button {
   margin-bottom: 24px;
 }
 
+/* responsive design code, desktop, tablet & mobile*/
+@media screen and (max-width: 1536px) {
+  body header #navbar {
+    width: 65%;
+  }
+  body main #main-container_A {
+    width: 65%;
+  }
+  body main #main-container_B #main-section_3 {
+    width: 65%;
+  }
+  body main .sidepage-container {
+    width: 65%;
+  }
+  body footer #footer-cont {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  body header #navbar {
+    width: 70%;
+  }
+  body main #main-container_A {
+    width: 70%;
+  }
+  body main #main-container_B #main-section_3 {
+    width: 70%;
+  }
+  body main .sidepage-container {
+    width: 70%;
+  }
+  body footer #footer-cont {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  body header #navbar {
+    width: 75%;
+  }
+  body main #main-container_A {
+    width: 75%;
+  }
+  body main #main-container_B #main-section_3 {
+    width: 75%;
+  }
+  body main .sidepage-container {
+    width: 75%;
+  }
+  body footer #footer-cont {
+    width: 75%;
+  }
+}
 h1, h2, h3, h4, h5, h6, p, a, table {
   padding: 0;
   margin: 0;

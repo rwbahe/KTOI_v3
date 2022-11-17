@@ -1,0 +1,98 @@
+
+/* responsive design code, desktop, tablet & mobile*/
+
+@media screen and (max-width: 1536px) {
+    body {
+        header {
+            #navbar {
+                width: 65%;
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 65%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 65%;
+                }
+            }
+
+            .sidepage-container {
+                width: 65%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 65%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        header {
+            #navbar {
+                width: 70%;
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 70%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 70%;
+                }
+            }
+
+            .sidepage-container {
+                width: 70%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 70%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        header {
+            #navbar {
+                width: 75%;
+            }
+        }
+
+        main {
+            #main-container_A {
+                width: 75%;
+            }
+
+            #main-container_B {
+                #main-section_3 {
+                    width: 75%;
+                }
+            }
+
+            .sidepage-container {
+                width: 75%;
+            }
+        }
+
+        footer {
+            #footer-cont {
+                width: 75%;
+            }
+        }
+    }
+}
